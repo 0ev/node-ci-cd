@@ -1,0 +1,24 @@
+{
+  "name": "andy-node-ci-cd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0ev/node-ci-cd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0ev/node-ci-cd/issues"
+  },
+  "homepage": "https://github.com/0ev/node-ci-cd#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
