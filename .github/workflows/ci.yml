@@ -24,5 +24,9 @@ jobs:
           cache: npm
       - name: Install npm dependencies
         run: npm ci
+      - name: Run Linting
+        run: npm run eslint
+      - name: run prettier formatting
+        run: npm run format
       - name: Build
         run: npm run build
