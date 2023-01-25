@@ -25,7 +25,7 @@ jobs:
       - name: Install npm dependencies
         run: npm ci
       - name: Run Linting
-        run: npm run eslint
+        run: eslint . --ext .ts
       - name: run prettier formatting
         run: npm run format
       - name: Build
